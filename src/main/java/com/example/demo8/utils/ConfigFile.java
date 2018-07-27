@@ -21,6 +21,7 @@ public class ConfigFile {
 
         }
 
+        //ha
         testUrl = address+uri;
         return testUrl;
 
