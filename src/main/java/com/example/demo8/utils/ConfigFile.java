@@ -13,7 +13,7 @@ public class ConfigFile {
 
         String uri="";
 
-        //最终的测试地址
+        //最终的测试地址嘿嘿
         String testUrl;
 
         if (name == InterfaceName.GETUSERLIST){
