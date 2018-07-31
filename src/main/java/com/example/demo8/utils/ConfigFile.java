@@ -20,6 +20,22 @@ public class ConfigFile {
             uri = bundle.getString("getUserList.uri");
 
         }
+        if (name == InterfaceName.LOGIN){
+            uri = bundle.getString("login.uri");
+
+        }
+        if (name == InterfaceName.UPDATEUSERINFO){
+            uri = bundle.getString("updateUserInfo.uri");
+
+        }
+        if (name == InterfaceName.GETUSERINFO){
+            uri = bundle.getString("getUserInfo.uri");
+
+        }
+        if (name == InterfaceName.ADDUSER){
+            uri = bundle.getString("addUser.uri");
+
+        }
 
         //hahahahh
         testUrl = address+uri;
